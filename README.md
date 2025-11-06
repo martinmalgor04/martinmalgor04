@@ -1,5 +1,11 @@
 # Hola, soy Martín Malgor
 
+<!-- Accent banner -->
+
+<p align="left">
+  <img alt="accent" width="320" height="6" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='6'><rect width='320' height='6' fill='%238B5E34'/></svg>">
+</p>
+
 > Estudiante de Ingeniería en Sistemas. Aprendo haciendo, comparto lo que me hubiese gustado saber. Código, sistemas, automatización y café.
 
 <p align="left">
@@ -9,7 +15,7 @@
 
 <!--
 PALETA
-- Fondo: #FAFAFA
+- Fondo: #FAFAFA (claro)
 - Texto: #111111
 - Acento marrón: #8B5E34
 - Pastel secundario: #E6D5C3
@@ -17,41 +23,58 @@ PALETA
 
 ---
 
-## Proyectos destacados
+<p>
+  <img alt="Aprendiendo" src="https://img.shields.io/badge/aprendiendo-Next.js%20·%20NestJS%20·%20TypeScript%20·%20n8n-E6D5C3?labelColor=E6D5C3&color=E6D5C3">
+</p>
 
-> Mantengo esta sección simple por ahora. Más adelante la haremos “viva” con métricas y highlights automáticos.
-
-### 1) dsw-2025 — Plataforma logística (UTN FRRe)
-
-**Stack:** Next.js (frontend) · NestJS (backend, microservicios)
-
-* **Repo:** [https://github.com/martinmalgor04/dsw-2025](https://github.com/martinmalgor04/dsw-2025)
-* **Demo (frontend):** [http://logistica.mmalgor.com.ar](http://logistica.mmalgor.com.ar)
-
-**Qué aporta:** app académica con arquitectura moderna (Next + Nest), base para productizar módulos.
+* 🧠 **Aprendiendo**: Next.js · NestJS · TypeScript · n8n
 
 ---
 
-### 2) tcmanagementweb — Sitio para agencia de management TC (Corrientes, AR)
+## 🚀 Proyectos destacados
 
-**Stack:** Next.js · Sanity (CMS) · Formspree (forms)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### dsw-2025 — Plataforma logística *(UTN FRRe)*
+
+**Stack:** Next.js · NestJS (microservicios)
+
+* **Repo:** [https://github.com/martinmalgor04/dsw-2025](https://github.com/martinmalgor04/dsw-2025)
+* **Demo:** [http://logistica.mmalgor.com.ar](http://logistica.mmalgor.com.ar)
+
+<p>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-111111?logo=nextdotjs&logoColor=white&labelColor=111111">
+  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E6D5C3?labelColor=E6D5C3&color=E6D5C3">
+</p>
+
+> App académica con arquitectura de microservicios; para logistica de pedidos de E-commerce.
+
+</td>
+    <td width="50%" valign="top">
+
+### tcmanagementweb — Sitio para agencia TC *(Corrientes, AR)*
+
+**Stack:** Next.js · Sanity CMS · Formspree
 
 * **Repo:** [https://github.com/martinmalgor04/tcmanagementweb](https://github.com/martinmalgor04/tcmanagementweb)
 
-**Qué aporta:** marketing site editable por CMS, formularios funcionales y despliegue rápido.
+<p>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-111111?logo=nextdotjs&logoColor=white&labelColor=111111">
+  <img alt="Sanity" src="https://img.shields.io/badge/Sanity-8B5E34?labelColor=8B5E34&color=8B5E34">
+  <img alt="Formspree" src="https://img.shields.io/badge/Formspree-E6D5C3?labelColor=E6D5C3&color=E6D5C3">
+</p>
+
+> Marketing site editable vía CMS, formularios funcionales y despliegue rápido.
+
+</td>
+  </tr>
+</table>
 
 ---
 
-### 3) n8n: Study Sessions (WIP)
-
-**Idea:** automatización para crear sesiones de estudio (planificación + tracking).
-
-* **Repo (WIP):** subiremos pronto el flujo exportado de **n8n** con README de uso.
-* **Roadmap corto:** export del workflow, variables de entorno, receta de despliegue, y ejemplo con Notion/Google Calendar.
-
----
-
-## Cómo trabajo / Intereses
+## 🧭 Cómo trabajo / Intereses
 
 <p>
   <img alt="Aprendo haciendo" src="https://img.shields.io/badge/Aprendo%20haciendo-E6D5C3?style=flat&labelColor=E6D5C3&color=E6D5C3">
@@ -63,54 +86,6 @@ PALETA
   <img alt="Construyo en público" src="https://img.shields.io/badge/Construyo%20en%20público-E6D5C3?style=flat&labelColor=E6D5C3&color=E6D5C3">
   <img alt="Café" src="https://img.shields.io/badge/Café%20☕-8B5E34?style=flat&labelColor=8B5E34&color=8B5E34&logo=coffeescript&logoColor=white">
 </p>
-
----
-
-## Coffee counter (placeholder)
-
-> Este contador es estático por ahora. Lo dejé con **marcadores** para que un workflow (n8n/GitHub Action) lo actualice automáticamente.
-
-**Cafés hoy:** <!-- COFFEE_COUNTER_START -->0<!-- COFFEE_COUNTER_END --> ☕
-
-![Cafés badge](https://img.shields.io/badge/cafés%20hoy-0-8B5E34?style=flat\&labelColor=8B5E34)
-
-**Hook técnico (comentado):**
-
-```html
-<!--
-Buscar entre marcadores COFFEE_COUNTER_START y COFFEE_COUNTER_END y reemplazar solo el número.
-Ejemplo pseudo:
-
-1) n8n obtiene el total (por ejemplo, de un Google Sheet o Notion).
-2) n8n lee README.md, hace regex para /(<!-- COFFEE_COUNTER_START -->)(\d+)(<!-- COFFEE_COUNTER_END -->)/ y reemplaza con el nuevo número.
-3) Commit push al repo si cambia.
--->
-```
-
----
-
-## Actualmente aprendiendo
-
-Next.js · NestJS · TypeScript · n8n · (abierto a colaboraciones y feedback)
-
----
-
-## Siguientes pasos (para la versión “cool”)
-
-* Banners `<picture>` con variantes para **modo claro/oscuro**.
-* Tarjetas dinámicas: últimos posts/threads y highlights (Twitter/LinkedIn).
-* Métricas vivas: WakaTime, contribuciones, repos activos.
-* Sección “Builds IA & automations” con casos pequeños y GIFs.
-
----
-
-### Nota para automatización (n8n)
-
-* Programar job diario para refrescar `Coffee counter` y “Currently learning”.
-* Exportar flujo `Study Sessions` y documentar variables (`.env` / credenciales).
-* (Opcional) GitHub Action que ejecute un script de formateo antes del commit.
-
----
 
 <p align="center">
   <sub>Hecho con ☕ y ganas de aprender. ¿Ideas o feedback? Abrí un issue en este repo.</sub>
